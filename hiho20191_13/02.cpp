@@ -9,7 +9,7 @@ int main()
 	char str[2];
 	int N, M;
 	int total = N * 3;
-	int bad[100000];
+	int bad[1000000];
 	for (int i = 0; i < M; i++)
 	{
 		cin.getline(str,2);
